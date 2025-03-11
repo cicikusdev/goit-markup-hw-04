@@ -372,6 +372,7 @@ body {
 }
 
 .portfolio-item-wrap-text {
+  margin: 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -477,10 +478,6 @@ body {
 
 .footer-site-info {
   margin-right: 120px;
-}
-
-p {
-  margin: 0;
 }
 
 .footer-social-title {

@@ -435,7 +435,8 @@ body {
 
 .footer-social-icon {
   display: flex;
-  margin-bottom: 16px;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer-social-icon-item {

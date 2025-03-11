@@ -422,10 +422,7 @@ body {
 
 .footer-social-icon-container {
   display: flex;
-  justify-content: center;
   gap: 16px;
-  padding: 0 15px;
-  height: 42px;
 }
 
 .footer-social-item {

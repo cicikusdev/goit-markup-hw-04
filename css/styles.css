@@ -118,6 +118,10 @@ header .logo-web {
 
 .section-first {
   padding: 188px 0;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
 }
 
 .big-title {
@@ -188,6 +192,10 @@ header .logo-web {
 .punkt {
   width: calc((1128px - 72px) / 4);
   flex-shrink: 0;
+}
+
+.svg-container {
+  background-color: gray ;
 }
 
 .title-second {
@@ -277,6 +285,24 @@ header .logo-web {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+.member-info-social-icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 0 15px;
+}
+
+.member-info-social-icon-item {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 .section-four {
   padding-top: 120px;
